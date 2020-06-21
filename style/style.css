@@ -349,22 +349,22 @@ main{
   border-radius: 10px;
 }
 #thumbWorkshop1{
-  background-image: url("/img/thumbLarge.png");
+  background-image: url("../img/thumbLarge.png");
   background-size: cover;
   background-position: center;
 }
 #thumbWorkshop2{
-  background-image: url("/img/thumbTall1.png");
+  background-image: url("../img/thumbTall1.png");
   background-size: cover;
   background-position: center;
 }
 #thumbWorkshop3{
-  background-image: url("/img/thumbTall2.png");
+  background-image: url("../img/thumbTall2.png");
   background-size: cover;
   background-position: center;
 }
 #thumbWorkshop4{
-  background-image: url("/img/thumbTall3.png");
+  background-image: url("../img/thumbTall3.png");
   background-size: cover;
   background-position: center;
 }
@@ -676,6 +676,7 @@ h5{
   }
   .footer{
     grid-template-columns: repeat(1, 1fr);
+    padding-left: 10%;
   }
   .rightHalf{
     grid-column: 1;
