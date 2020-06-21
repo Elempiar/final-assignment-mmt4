@@ -17,9 +17,9 @@
   --textColor: #000;
   --textColorFade: rgba(0, 0, 0, 0.5);
   --btnColor: #fff;
-  --cloudsBG: url("../img/repeatableClouds.svg");
-  --cloudsBGflipped: url("../img/repeatableCloudsFlipped.svg");
-  --introLogo: url("../img/logoSmallText.svg");
+  --cloudsBG: url("/img/repeatableClouds.svg");
+  --cloudsBGflipped: url("/img/repeatableCloudsFlipped.svg");
+  --introLogo: url("/img/logoSmallText.svg");
 }
 [data-theme="dark"] {
   --mainColor: #273646;
@@ -30,9 +30,9 @@
   --textColor: #C5D6E2;
   --textColorFade: rgba(255, 255, 255, 0.5);
   --btnColor: #C5D6E2;
-  --cloudsBG: url("../img/repeatableClouds-dark.svg");
-  --cloudsBGflipped: url("../img/repeatableCloudsFlipped-dark.svg");
-  --introLogo: url("../img/logoSmallText-dark.svg");
+  --cloudsBG: url("/img/repeatableClouds-dark.svg");
+  --cloudsBGflipped: url("/img/repeatableCloudsFlipped-dark.svg");
+  --introLogo: url("/img/logoSmallText-dark.svg");
 }
 .clear{
   clear: both;
