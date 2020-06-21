@@ -140,6 +140,7 @@ a{
 }
 #mobileNav img{
   height: 40px;
+  padding-top: 10px;
 }
 .navBox{
   width: 100%;
@@ -395,7 +396,7 @@ main{
 .reviewScore img{
   display: inline-block;
 }
-.accordion{
+.accordionOpdr{
   cursor: pointer;
   padding: 20px;
   width: 100%;
@@ -410,7 +411,7 @@ main{
 .accordionSub{
   margin-left: 30px;
 }
-.accordion:after{
+.accordionOpdr:after{
   content: '\002B';
   float: right;
   color: rgba(0, 0, 0, 0.6);
@@ -565,7 +566,7 @@ a{
   color: var(--textColor);
   text-decoration: none;
 }
-.accordion{
+.accordionOpdr{
   font-family: 'Crimson Text', serif;
   font-size: 22px;
 }
@@ -720,6 +721,23 @@ h5{
   }
   .mobileOnly{
     display: block;
+  }
+}
+@media only screen and (max-width: 860px){
+  .panel .container{
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  .panelWrapper{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .panelWrapper img{
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    margin-right: 5%;
   }
 }
 @media only screen and (max-width: 850px){
