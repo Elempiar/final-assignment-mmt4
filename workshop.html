@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raido - Het mythische codeer avontuur!</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
+  <link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel='icon' href='favicon.ico' type='image/x-icon'>
+</head>
+<body>
+  <nav class="desktopOnly" id="desktopNav">
+    <div class="containerNav">
+      <img src="img/logoWhite.svg" alt="Raido Code Logo" height="50px" width="50px">
+      <ul class="navJump">
+        <a href="index.html"><li>Home</li></a>
+        <a href="index.html#scrlWorkshops"><li>Workshops</li></a>
+        <a href="index.html#scrlTeam"><li>Team</li></a>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </nav>
+  <nav class="mobileOnly" id="mobileNav">
+    <div class="containerNav">
+      <img src="img/logoWhite.svg" alt="Raido Code Logo" height="50px" width="50px">
+      <button id="hamburger"><img src="img/buttonHamburger.svg" alt="Hamburger button" height="50px"></button>
+      <div class="clear"></div>
+    </div>
+  </nav>
+  <div class="navBox mobileOnly">
+    <ul>
+      <button id="close"><li><img src="img/buttonClose.svg" alt="Close button" height="30px"></li></button>
+      <a href="index.html"><li>Home</li></a>
+      <a href="index.html#scrlWorkshops"><li>Workshops</li></a>
+      <a href="index.html#scrlTeam"><li>Team</li></a>
+    </ul>
+  </div>
+  <header>
+    <div class="containerHero">
+    <img id="logo" src="img/logoText.svg" alt="Raido. Het mythische codeer avontuur!">
+    <h1 class="workshopTitle">A mythical journey</h1>
+    </div>
+  </header>
+  <main>
+    <div class="containerLarge" id="workshop">
+      <div class="leftHalf">
+        <img src="img/griffioen.png" alt="Raido Griffioen">
+      </div>
+      <div class="rightHalf">
+        <h1>Het verhaal</h1>
+        <p>De Griffioen voelt zich de laatste tijd erg alleen, nu hij wat ouder is en het nest verlaten heeft, is hij al zijn vrienden kwijtgeraakt. Maar, er is nog hoop! Jij als codeer-leerling kan het verschil maken voor de Griffioen.</p>
+        <p>Wat ga je dan doen? Nou, je gaat een nieuw vriendje maken door middel van een aantal codeerlessen. Jij gaat jouw eigen mythische wezen of fabeldier maken. Om dit te kunnen doen moeten er een aantal dingen geleerd worden. Een aantal wezens die de Griffioen kent gaan jou helpen met het ontwikkelen van een nieuw vriendje voor de eenzame vogel.</p>
+      </div>
+    </div>
+    <div class="sectionCentered">
+      <div class="container">
+        <h1 class="center">De opdrachten</h1>
+      </div>
+      <button class="accordion" id="opdracht1"><span class="accordionTitle">Opdracht 1</span>|<span class="accordionSub">De Basics</span></button>
+      <div class="panel">
+        <div class="panelWrapper">
+          <img src="img/draak.png" alt="Raido Draak">
+          <h2>De basics</h2>
+          <h3>Draak</h3>
+          <div class="clear"></div>
+        </div>
+        <div class="container">
+          <p>Om te beginnen: De basics. Niemand kent deze beter dan de eeuwen oude draak! Je leert de "set-up" en "draw" kennen, en ook krijg je geleerd hoe je de achtergrond kleur kan veranderen. De basics zijn natuurlijk belangrijk, maar we proberen het zo compact mogelijk uit te leggen. Zo kan je sneller beginnen aan het leukere werk!</p>
+        </div>
+      </div>
+      <button class="accordion" id="opdracht2"><span class="accordionTitle">Opdracht 2</span>|<span class="accordionSub">Rasters en Pixels</span></button>
+      <div class="panel">
+        <div class="panelWrapper">
+          <img src="img/minotaurus.png" alt="Raido Minotaurus">
+          <h2>Rasters en Pixels</h2>
+          <h3>Minotaurus</h3>
+          <div class="clear"></div>
+        </div>
+        <div class="container">
+          <p>De minotaurus is hier om je te leren hoe het raster en de pixels werken waarop de code gebaseerd is. Als je een vorm wilt tekenen in je code, moet je natuurlijk aangeven hoe groot de vorm is en waar deze komt te staan. De grootte en locatie geef je aan in pixels. De vorm wordt dan geplaatst binnen een pixel-raster. Geen zorgen, de minotaurus legt het stap voor stap uit!</p>
+        </div>
+      </div>
+      <button class="accordion" id="opdracht3"><span class="accordionTitle">Opdracht 3</span>|<span class="accordionSub">Vormen</span></button>
+      <div class="panel">
+        <div class="panelWrapper">
+          <img src="img/feniks.png" alt="Raido Feniks">
+          <h2>Vormen</h2>
+          <h3>Feniks</h3>
+          <div class="clear"></div>
+        </div>
+        <div class="container">
+          <p>Vormen zijn belangrijk voor het maken van jouw eigen mythische wezen! De feniks legt je maar al te graag uit hoe je zelf een vierkant, een cirkel en een driehoek kan tekenen!</p>
+        </div>
+      </div>
+      <button class="accordion" id="opdracht4"><span class="accordionTitle">Opdracht 4</span>|<span class="accordionSub">Kleuren</span></button>
+      <div class="panel">
+        <div class="panelWrapper">
+          <img src="img/zeemeermin.png" alt="Raido Zeemeermin">
+          <h2>Kleuren</h2>
+          <h3>Zeemeermin</h3>
+          <div class="clear"></div>
+        </div>
+        <div class="container">
+          <p>Tijd om lekker digitale verf te mengen! De zeemeermin zwemt continu door de mooiste kleuren in de zee en wilt jou hier graag bij helpen. Je krijgt geleerd wat RGB is, en hoe je dit kan gebruiken om zelf de mooiste kleuren te mengen!</p>
+        </div>
+      </div>
+      <button class="accordion" id="opdracht5"><span class="accordionTitle">Opdracht 5</span>|<span class="accordionSub">Een nieuw vriendje</span></button>
+      <div class="panel">
+        <div class="panelWrapper">
+          <img src="img/eenhoorn.png" alt="Raido Eenhoorn">
+          <h2>Eigen Wezen</h2>
+          <h3>Eenhoorn</h3>
+          <div class="clear"></div>
+        </div>
+        <div class="container">
+          <p>Tijd om creatief te worden! De magische eenhoorn staat voor je klaar om samen met jou een eigen mythisch wezen te maken! Teken eerst jouw wezen op papier, zodat je een voorbeeld hebt om na te tekenen in code.  Denk tijdens het schetsen van je wezen aan de vormen die je in de vorige opdrachten geleerd hebt, zo weet je zeker dat je je wezen ook daadwerkelijk na kan maken!</p>
+        </div>
+      </div>
+    </div>
+    <div class="sectionClouds">
+      <div class="container">
+        <h2>Tutorials</h2>
+        <p>Bij Raido kan je er voor kiezen om de workshops zelf te verzorgen! Om dit proces zo makkelijk mogelijk te houden hoort bij elke Workshop een set tutorial filmpjes.</p>
+      </div>
+    </div>
+    <div class="sectionClear">
+      <div class="container">
+        <h2>Introductie aan de workshop</h2>
+        <video id="tutorial1" class="video-js" controls preload="auto" width="800px" poster="img/thumb-tutorial_1.png" data-setup="{}" >
+          <source src="https://player.vimeo.com/external/430853177.hd.mp4?s=b5fb5ee63600559749e4a1959a2ce577b616a1b6&profile_id=175" type="video/mp4"/>
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+        </video>
+      </div>
+    </div>
+    <div class="sectionLeft">
+      <div class="container">
+        <h2>Uitleg van de workshop</h2>
+        <video id="tutorial2" class="video-js" controls preload="auto" width="800px" poster="img/thumb-tutorial_2.png" data-setup="{}" >
+          <source src="https://player.vimeo.com/external/431042017.hd.mp4?s=9f59d7943ff24862c7fe12d19b2aec31690444bd&profile_id=175" type="video/mp4"/>
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+        </video>
+      </div>
+    </div>
+    <div class="sectionClear">
+      <div class="container">
+        <h2>Het opzetten van de workshop</h2>
+        <video id="tutorial3" class="video-js" controls preload="auto" width="800px" poster="img/thumb-tutorial_3.png" data-setup="{}" >
+          <source src="//www.youtube.com/embed/0KKMUxn8FZI?controls=0" type="video/mp4"/>
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+        </video>
+      </div>
+    </div>
+    <div class="sectionCentered">
+      <div class="container">
+        <a href="/files/raidoLespakket.zip" download><div class="cta btnDownload"><div class="ctaHover">Download het Lespakket</div></div></a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer" id="footer">
+      <ul>
+        <li class="listTitle">Workshops</li>
+        <li><a href="workshop.html">A Mythical Journey</a></li>
+        <li><a>Workshop 2</a></li>
+        <li><a>Workshop 3</a></li>
+        <li><a>Workshop 4</a></li>
+        <li class="listTitle">Boek Workshop</li>
+        <li><a>Verzorgde workshops</a></li>
+        <li><a>Beschikbare data</a></li>
+      </ul>
+      <ul>
+        <li class="listTitle">Contact</li>
+        <li><a>raido-code@gmail.com</a></li>
+        <li><a>046-23609319 (NL)</a></li>
+        <li><a>+31-6-73956229 (BE)</a></li>
+        <li class="listTitle">Social Media</li>
+        <li><a>Malvin Schuivens</a></li>
+        <li><a>Luuk Verboeket</a></li>
+        <li><a>Siri Slijpen</a></li>
+      </ul>
+      <ul>
+        <li class="listTitle">Hello there</li>
+        <li><a>General Kenobi</a></li>
+        <li><a>You are a bold one</a></li>
+        <li><a>Kill him</a></li>
+        <li><a>Back away</a></li>
+        <li><a >I will deal with this Jedi slime myself</a></li>
+        <li><a>Your move</a></li>
+        <li><a>You fool</a></li>
+        <li><a>I've been trained in your Jedi arts by Count Dooku</a></li>
+        <li><a>Attack, Kenobi</a></li>
+      </ul>
+      <ul>
+        <li class="listTitle">In opdracht van</li>
+        <li>Zuyd Hogeschool</li>
+        <li>Koninkrijk der Nederlanden</li>
+        <li class="listTitle">Legal</li>
+        <li><a>Privacy</a></li>
+        <li><a>Licensies</a></li>
+        <li><a>Copyright</a></li>
+        <li class="listTitle">Version</li>
+        <li>LIVE v1.0</li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.8.2/video.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/accordion.js"></script>
+</body>
+</html>

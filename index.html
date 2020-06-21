@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raido - Het mythische codeer avontuur!</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+  <link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style/style.css">
+  <link rel='icon' href='favicon.ico' type='image/x-icon'>
+</head>
+
+<body>
+  <nav class="desktopOnly" id="desktopNav">
+    <div class="containerNav">
+      <div class="themeSwitchWrapper">
+        <label class="themeSwitch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+        </label>
+        <em>Dark Mode</em>
+      </div>
+      <ul>
+        <li id="btnHome">Home</li>
+        <li id="btnWorkshops">Workshops</li>
+        <li id="btnTeam">Team</li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </nav>
+  <nav class="mobileOnly" id="mobileNav">
+    <div class="containerNav">
+      <div class="themeSwitchWrapper">
+        <label class="themeSwitch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+        </label>
+        <em>Dark Mode</em>
+      </div>
+      <button id="hamburger"><img src="img/buttonHamburger.svg" alt="Hamburger button" height="50px"></button>
+      <div class="clear"></div>
+    </div>
+  </nav>
+  <div class="navBox mobileOnly">
+    <ul>
+      <button id="close">
+        <li><img src="img/buttonClose.svg" alt="Close button" height="30px"></li>
+      </button>
+      <a href="index.html">
+        <li>Raido</li>
+      </a>
+      <a href="index.html#scrlWorkshops">
+        <li>Workshops</li>
+      </a>
+      <a href="index.html#scrlTeam">
+        <li>Team</li>
+      </a>
+    </ul>
+  </div>
+  <header>
+    <div class="containerHero" id="scrlHome">
+      <img id="logo" src="img/logoText.svg" alt="Raido. Het mythische codeer avontuur!">
+      <img id="illustration" src="img/griffioen.png" alt="Raido Griffioen">
+    </div>
+  </header>
+  <main>
+    <div class="containerIntro">
+      <div id="introLogo"></div>
+      <h1 class="introText">coderen voor kids</h1>
+      <div class="clear"></div>
+      <p>Maak kennis met onze mythische wezens die staan te popelen om de nieuwe generatie een proefje te geven van het
+        vak van de toekomst!</p>
+      <p>Wij bieden basisschoolleraren workshops aan die de leerlingen zullen helpen de eerste stappen te zitten naar
+        een technologische toekomst.</p>
+    </div>
+    <div class="sectionLeft">
+      <div class="container gap100">
+        <div class="leftHalf">
+          <p>Raido Code is een initiatief van Siri Slijpen, Luuk Verboeket en Malvin Schuivens. Wij zijn alle drie
+            leerlingen aan de opleiding Communication & Multimedia Design. Inmiddels zijn we alle drie vrij gevorderd in
+            de skills die we het leukst vinden. Deze kennis, kunde en passie willen we dan ook overbrengen op de
+            toekomst: de kinderen!</p>
+          <p>Raido Code heeft in totaal vier workshops, waarvan op dit moment de eerste volledig beschikbaar is. Wij
+            bieden future skills aan en leerlingen hebben hier dan ook geen voorkennis voor nodig. Iedereen kan deze
+            workshops volgen, jong of oud!</p>
+        </div>
+        <div class="rightHalf">
+          <p>In iedere workshop staan video's waarin wij uitleggen hoe jij als leraar of lerares deze workshops het
+            beste kan geven. Hier leggen wij ook uit wat jij als docent nodig hebt en hoe je dit kan downloaden!</p>
+          <p>Maar, er is altijd de mogelijkheid om de workshops niet zelf te geven. Neem gerust contact met ons op en
+            wij zullen een datum afspreken om deze workshop te geven. Want hoe dan ook, de kinderen zijn onze toekomst!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Dit is Raido Code</h1>
+      <video id="promovideo" class="video-js" controls preload="auto" width="800px" poster="img/thumb-promo.png"
+        data-setup="{}">
+        <source
+          src="https://player.vimeo.com/external/430853403.hd.mp4?s=0abd078e6aeee90d0a2fc27c9e88420ef4339cd0&profile_id=175"
+          type="video/mp4" />
+        <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to a
+          web browser that
+          <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+      </video>
+    </div>
+    <div class="sectionClouds" id="scrlWorkshops">
+      <div class="container">
+        <h1>Workshops</h1>
+        <div class="leftHalf">
+          <div class="thumbnailLarge" id="thumbWorkshop1"></div>
+        </div>
+        <div class="rightHalf">
+          <h3>A Mythical Journey</h3>
+          <p>2 uur | groep 7 - 8</p>
+          <p>In deze workshop leren de leerlingen de basis van coderen. Makkelijk te volgen voor beginnende leerlingen,
+            makkelijk uit te breiden voor leerlingen die al wat verder zijn.</p>
+          <a href="workshop.html">
+            <div class="cta">
+              <div class="ctaHover">Bekijken</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="container threeColumns workshops">
+        <div>
+          <div class="thumbnailTall" id="thumbWorkshop2"></div>
+          <h4>Deepsea Adventure</h4>
+          <p>Verwacht: 12-2020</p>
+        </div>
+        <div>
+          <div class="thumbnailTall" id="thumbWorkshop3"></div>
+          <h4>Endor's Stars</h4>
+          <p>Verwacht: 03-2021</p>
+        </div>
+        <div>
+          <div class="thumbnailTall" id="thumbWorkshop4"></div>
+          <h4>Mythical Creatures</h4>
+          <p>Verwacht: 02-2525</p>
+        </div>
+      </div>
+    </div>
+    <div class="sectionClean">
+      <div class="containerSlider">
+        <div class="reviewTitle">
+          <h1>Reviews</h1>
+        </div>
+        <div class="reviewSlider">
+          <div class="review">
+            <div class="reviewScore">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOff.png" alt="Rating" width="35px">
+            </div>
+            <h5>SJB Zonhoven</h5>
+            <a class="reviewNaam" href="workshop.html">A Mythical Journey</a>
+            <p class="reviewText">"De kinderen vonden de workshop fantastisch en hebben zich prima vermaakt!"</p>
+          </div>
+          <div class="review">
+            <div class="reviewScore">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOff.png" alt="Rating" width="35px">
+            </div>
+            <h5>OBS De Sprong</h5>
+            <a class="reviewNaam" href="workshop.html">A Mythical Journey</a>
+            <p class="reviewText">"Dit is een workshop waar je u tegen zegt."</p>
+          </div>
+          <div class="review">
+            <div class="reviewScore">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+            </div>
+            <h5>OBS Het Startblok</h5>
+            <a class="reviewNaam" href="workshop.html">A Mythical Journey</a>
+            <p class="reviewText">"Stel, dit bedrijf was een school project en ik was de leraar die hier over ging. Dan
+              zou ik het bedrijf een 10 geven."</p>
+          </div>
+          <div class="review">
+            <div class="reviewScore">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOff.png" alt="Rating" width="35px">
+              <img src="img/starOff.png" alt="Rating" width="35px">
+              <img src="img/starOff.png" alt="Rating" width="35px">
+              <img src="img/starOff.png" alt="Rating" width="35px">
+            </div>
+            <h5>OBS De Wissel</h5>
+            <a class="reviewNaam" href="workshop.html">A Mythical Journey</a>
+            <p class="reviewText">"De workshop was prima, maar die Luuk kerel bleef maar praten in Star Wars quotes. Erg
+              vervelend."</p>
+          </div>
+          <div class="review">
+            <div class="reviewScore">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+              <img src="img/starOn.png" alt="Rating" width="35px">
+            </div>
+            <h5>OBS Sint Hubertus</h5>
+            <a class="reviewNaam" href="workshop.html">A Mythical Journey</a>
+            <p class="reviewText">"Leuk"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sectionRight">
+      <div class="container teamFaces" id="scrlTeam">
+        <h1 class="facesTitle">Het team achter Raido</h1>
+        <div>
+          <img src="img/raidoMalvin.png" alt="Raido C.E.O. Malvin Schuivens." width="220px">
+          <h3>Malvin Schuivens</h3>
+          <p>C.E.O.</p>
+        </div>
+        <div>
+          <img src="img/raidoLuuk.png" alt="Raido C.E.O. Malvin Schuivens." width="220px">
+          <h3>Luuk Verboeket</h3>
+          <p>Hackerman</p>
+        </div>
+        <div>
+          <img src="img/raidoSiri.png" alt="Raido C.E.O. Malvin Schuivens." width="220px">
+          <h3>Siri Slijpen</h3>
+          <p>Master of Design</p>
+        </div>
+      </div>
+    </div>
+    <div class="sectionClean">
+      <div class="accordionPlayer">
+        <h3>
+          <div class="accordionArrow"></div>For Bigger Blazes
+        </h3>
+        <div class="videoWrapper">
+          <div class="modal"></div>
+          <img class="btnRewind btnPlayer" src="img/rewind-btn@2x.png" alt="rewind">
+          <div class="btnPlayPause btnPlay btnPlayer"></div>
+          <img class="btnForward btnPlayer" src="img/forward-btn@2x.png" alt="forward">
+          <video id="my-video1" class="video-js vjs-16-9" preload="auto" width="600" height="300"
+            poster="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg" data-setup="{}">
+            <source
+              src=http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+              type="video/mp4" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+          </video>
+        </div>
+        <h3>
+          <div class="accordionArrow"></div>For Bigger Escapes
+        </h3>
+        <div class="videoWrapper">
+          <div class="modal"></div>
+          <img class="btnRewind btnPlayer" src="img/rewind-btn@2x.png" alt="rewind">
+          <div class="btnPlayPause btnPlay btnPlayer"></div>
+          <img class="btnForward btnPlayer" src="img/forward-btn@2x.png" alt="forward">
+          <video id="my-video2" class="video-js vjs-16-9" preload="auto" width="600" height="300"
+            poster="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg" data-setup="{}">
+            <source
+              src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+              type="video/mp4" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+          </video>
+        </div>
+        <h3>
+          <div class="accordionArrow"></div>For Bigger Fun
+        </h3>
+        <div class="videoWrapper">
+          <div class="modal"></div>
+          <img class="btnRewind btnPlayer" src="img/rewind-btn@2x.png" alt="rewind">
+          <div class="btnPlayPause btnPlay btnPlayer"></div>
+          <img class="btnForward btnPlayer" src="img/forward-btn@2x.png" alt="forward">
+          <video id="my-video3" class="video-js vjs-16-9" preload="auto" width="600" height="300"
+            poster="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg" data-setup="{}">
+            <source
+              src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+              type="video/mp4" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+          </video>
+        </div>
+        <h3>
+          <div class="accordionArrow"></div>For Bigger Joyrides
+        </h3>
+        <div>
+          <div class="videoWrapper">
+            <div class="modal"></div>
+            <img class="btnRewind btnPlayer" src="img/rewind-btn@2x.png" alt="rewind">
+            <div class="btnPlayPause btnPlay btnPlayer"></div>
+            <img class="btnForward btnPlayer" src="img/forward-btn@2x.png" alt="forward">
+            <video id="my-video4" class="video-js vjs-16-9" preload="auto" width="600" height="300"
+              poster="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg" ddata-setup="{}">
+              <source
+                src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+                type="video/mp4" />
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5
+                  video</a>
+              </p>
+            </video>
+          </div>
+        </div>
+        <h3>
+          <div class="accordionArrow"></div>For Bigger Meltdowns
+        </h3>
+        <div class="videoWrapper">
+          <div class="modal"></div>
+          <img class="btnRewind btnPlayer" src="img/rewind-btn@2x.png" alt="rewind">
+          <div class="btnPlayPause btnPlay btnPlayer"></div>
+          <img class="btnForward btnPlayer" src="img/forward-btn@2x.png" alt="forward">
+          <video id="my-video5" class="video-js vjs-16-9" preload="auto" width="600" height="300"
+            poster="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg" data-setup="{}">
+            <source
+              src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
+              type="video/mp4" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+          </video>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer" id="footer">
+      <ul>
+        <li class="listTitle">Workshops</li>
+        <li><a href="workshop.html">A Mythical Journey</a></li>
+        <li><a>Workshop 2</a></li>
+        <li><a>Workshop 3</a></li>
+        <li><a>Workshop 4</a></li>
+        <li class="listTitle">Boek Workshop</li>
+        <li><a>Verzorgde workshops</a></li>
+        <li><a>Beschikbare data</a></li>
+      </ul>
+      <ul>
+        <li class="listTitle">Contact</li>
+        <li><a>raido-code@gmail.com</a></li>
+        <li><a>046-23609319 (NL)</a></li>
+        <li><a>+31-6-73956229 (BE)</a></li>
+        <li class="listTitle">Social Media</li>
+        <li><a>Malvin Schuivens</a></li>
+        <li><a>Luuk Verboeket</a></li>
+        <li><a>Siri Slijpen</a></li>
+      </ul>
+      <ul>
+        <li class="listTitle">Hello there</li>
+        <li><a>General Kenobi</a></li>
+        <li><a>You are a bold one</a></li>
+        <li><a>Kill him</a></li>
+        <li><a>Back away</a></li>
+        <li><a>I will deal with this Jedi slime myself</a></li>
+        <li><a>Your move</a></li>
+        <li><a>You fool</a></li>
+        <li><a>I've been trained in your Jedi arts by Count Dooku</a></li>
+        <li><a>Attack, Kenobi</a></li>
+      </ul>
+      <ul>
+        <li class="listTitle">In opdracht van</li>
+        <li>Zuyd Hogeschool</li>
+        <li>Koninkrijk der Nederlanden</li>
+        <li>Google</li>
+        <li class="listTitle">Legal</li>
+        <li><a>Privacy</a></li>
+        <li><a>Licensies</a></li>
+        <li><a>Copyright</a></li>
+        <li class="listTitle">Version</li>
+        <li>LIVE v1.1</li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.8.2/video.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
